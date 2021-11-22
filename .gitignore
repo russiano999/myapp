@@ -1,0 +1,10 @@
+# ignore all logs and other
+*.log
+*.sqlite
+test.file
+/bin
+/env
+/include
+/lib
+/lib64
+/share

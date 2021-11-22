@@ -1,6 +1,6 @@
 # ignore all logs and other
 *.log
-*.sqlite
+*.sqlite3
 test.file
 /bin
 /env

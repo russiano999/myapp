@@ -7,7 +7,7 @@ WORKDIR /app
 # Копирует все файлы из нашего локального проекта в контейнер
 ADD . /app
 # Запускает команду pip install для всех библиотек, перечисленных в requirements.txt
-RUN apk add --no-cache      gcc      libc-dev      linux-headers	python3-dev	python3-venv
+RUN apk add --no-cache      gcc      libc-dev      linux-headers	python3-dev	python3.8-venv
 # apk add python3-dev build-base linux-headers pcre-dev 
 RUN pip install -r requirements.txt
 
